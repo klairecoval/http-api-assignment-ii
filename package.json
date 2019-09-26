@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "API 2 HW for IGME430-Fall, 2019",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Tests Completed\"",
+    "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klairecoval/http-api-assignment-ii.git"
+  },
+  "author": "Claire Koval",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/klairecoval/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/klairecoval/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
